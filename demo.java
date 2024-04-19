@@ -51,7 +51,7 @@ import java.util.*;
 
 public class demo {
     public static void main(String[] args) {
-        String Name = Scanner.system.in("Enter your Name : ");
+        String Name = Scanner.nextLine("Enter your Name : ");
         System.out.println("Enter detail is :"+Name);
     }
 }
