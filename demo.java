@@ -43,15 +43,3 @@
 //         System.out.println("There is your overall Faimly Income is "+sum);
 //     }
 // }
-
-
-// this program is not completed still there is something missing statement
-
-import java.util.*;
-
-public class demo {
-    public static void main(String[] args) {
-        String Name = Scanner.nextLine("Enter your Name : ");
-        System.out.println("Enter detail is :"+Name);
-    }
-}

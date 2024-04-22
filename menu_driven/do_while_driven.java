@@ -12,6 +12,7 @@ public class do_while_driven {
             System.out.println("press '5' for print fifth day of week");
             System.out.println("press '6' for print sixth day of week");
             System.out.println("press '7' for print seventh day of week");
+            System.out.println("Enter 'exit' for exit.");
             System.out.println("###########################################");
             Scanner day_user_input =new Scanner(System.in);
             int day = day_user_input.nextInt();
@@ -40,6 +41,8 @@ public class do_while_driven {
                 System.out.println("Please Enter valid input.");
             }
         }
-        while 
+        while {
+            (day == exit);
+        }
     }
 }
