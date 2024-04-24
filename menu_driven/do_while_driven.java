@@ -2,9 +2,11 @@ import java.util.Scanner;
 
 public class do_while_driven {
     public static void main (String[] args) {
-        do {
+        int day;
+        Scanner day_user_input =new Scanner(System.in);
+
+        do {            
             System.out.println("################## MENU #################");
-            System.out.println("Enter your choice.");
             System.out.println("press '1' for print first day of week");
             System.out.println("press '2' for print second day of week");
             System.out.println("press '3' for print third day of week");
@@ -12,10 +14,13 @@ public class do_while_driven {
             System.out.println("press '5' for print fifth day of week");
             System.out.println("press '6' for print sixth day of week");
             System.out.println("press '7' for print seventh day of week");
-            System.out.println("Enter 'exit' for exit.");
             System.out.println("###########################################");
-            Scanner day_user_input =new Scanner(System.in);
-            int day = day_user_input.nextInt();
+
+
+            System.out.print("Enter your choice : ");
+            day = day_user_input.nextInt();
+
+
             if (day == 1) {
                 System.out.println("Monday");
             }
@@ -41,8 +46,6 @@ public class do_while_driven {
                 System.out.println("Please Enter valid input.");
             }
         }
-        while {
-            (day == exit);
-        }
+        while (day == 9);
     }
 }
