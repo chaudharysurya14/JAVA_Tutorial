@@ -1,19 +1,18 @@
-// This code is decorate in assending order of all the element that i accept by the users in array
 package Array;
-import java.util.array;
+
 import java.util.Scanner;
 
 public class d1_code3 {
-    public static void main(String[] args) {
-        int a[] = new int[5];
-        System.out.print("Enter Array element : ");
-        Scanner obj = new Scanner(System.in);
-        for (int i = 0; i < 4; i++) {
-            a[i] = obj.nextInt();
+    public static void main(String args[]) {
+        System.out.println("Enter array Element : ");
+        int a[] = new int[5]; // creating empty index for 5 array elemrnt
+        Scanner obj = new Scanner(System.in); // This line of code is take input from user for array
+        for (int i = 0; i < 5; i++) { // This line of code is take input from user for array
+            a[i] = obj.nextInt(); // This line of code is take input from user for array
         }
-        System.out.println("Your elements are : ");
-        for (int b : a) {
-            System.out.println(b);
+        System.out.println("Array elements are : "); // This line of code is print array elements
+        for (int b : a) { // This line of code is print array elements
+            System.out.println(b); // This line of code is print array elements
         }
     }
 }
