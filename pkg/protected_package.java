@@ -37,8 +37,7 @@
 package pkg;
 
 public class protected_package {
-    protected void show() {
+    public void show() {
         System.out.println("suryadev chaudhary");
     }
 }
-
